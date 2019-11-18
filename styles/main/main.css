@@ -1,0 +1,84 @@
+@import 'nav.css';
+
+img {
+  max-width: 100%;
+}
+
+.fishies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 67%;
+  justify-content: space-evenly;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fishies__card {
+  flex-basis: 27%;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 6px;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+
+aside {
+  width: 30%;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.location {
+  flex-basis: 30%;
+  border: 2px solid goldenrod;
+  padding: 7px;
+  border-radius: 10px;
+  margin: 5px;
+  min-width: 150px;
+}
+
+.fishFinder {
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.travelTips {
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.header {
+  font-size: 1.6em;
+}
+
+@media (max-width:950px) {
+  .fishies {
+    flex-basis: 100%;
+  }
+  aside {
+    flex-basis: 100%;
+  }
+}

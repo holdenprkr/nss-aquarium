@@ -1,0 +1,42 @@
+.nav__links {
+  float: right;
+  margin-top: 4.5px;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: limegreen  
+}
+
+
+
+a:hover {
+  color: white;
+}
+
+a:link {
+  color: goldenrod;
+}
+
+.nav__links a {
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 1px -1px 2px gray;
+  text-decoration: none;
+  padding: 5px 8px;
+  background-color: cyan;
+}
+
+nav {
+  border: 2px solid goldenrod;
+  box-shadow: 1px 2px 2px gray;
+  padding: 10px 8px;
+  background-color: #ad6dc9;
+  width: 85%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: cyan;
+}
