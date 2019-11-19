@@ -2,6 +2,7 @@
 
 img {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .fishies {
@@ -29,7 +30,7 @@ aside {
   width: 30%;
   border: 2px solid goldenrod;
   border-radius: 10px;
-  padding: 6px;
+  padding: 10px;
 }
 
 body {
@@ -78,7 +79,26 @@ h1 {
   .fishies {
     flex-basis: 100%;
   }
+
   aside {
     flex-basis: 100%;
   }
+}
+
+.highlightFish {
+  background-color: darkgoldenrod;
+  color: lightgoldenrodyellow;
+}
+
+.tipHeader {
+  margin-top: 0px;
+}
+
+.tipBorder {
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+}
+
+.tip {
+  padding: 0px 6px;
 }
