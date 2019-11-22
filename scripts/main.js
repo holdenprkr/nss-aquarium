@@ -2,8 +2,10 @@ import initializeDetailButtonEvents from './dialogs.js'
 import addMouseOverEventListeners from './highlight.js'
 import addMouseOverTipBorder from './tipBorder.js'
 import { useFish } from './fishDataProvider.js'
+import FishListComponent from './fishList.js'
 
-initializeDetailButtonEvents()
+// initializeDetailButtonEvents()
+FishListComponent()
 addMouseOverEventListeners()
 addMouseOverTipBorder()
 

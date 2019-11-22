@@ -1,6 +1,6 @@
 const fishCollection = [
   {
-    image: "fish.jpg",
+    image: "https://s7d1.scene7.com/is/image/PETCO/1031740-left-1",
     name:"Bitey",
     food: ["Humans", "Pellets"],
     species:"Pirahna",
@@ -8,7 +8,7 @@ const fishCollection = [
     location:"Brazil"
   },
   {
-    image: "fish.jpg",
+    image: "https://s7d1.scene7.com/is/image/PETCO/1031740-left-1",
     name:"Jawsie",
     food: ["Seals", "Flakes"],
     species:"Shark",
@@ -16,7 +16,7 @@ const fishCollection = [
     location:"Florida, USA"
   },
   {
-    image: "fish.jpg",
+    image: "https://s7d1.scene7.com/is/image/PETCO/1031740-left-1",
     name:"Angie",
     food: ["Shrimp", "Crabs"],
     species:"Angler",
@@ -24,7 +24,7 @@ const fishCollection = [
     location:"Alaska"
   },
   {
-    image: "fish.jpg",
+    image: "https://s7d1.scene7.com/is/image/PETCO/1031740-left-1",
     name:"Barry",
     food: ["Fish", "Sponges"],
     species:"Barracuda",
@@ -32,7 +32,7 @@ const fishCollection = [
     location:"Bahamas"
   },
   {
-    image: "fish.jpg",
+    image: "https://s7d1.scene7.com/is/image/PETCO/1031740-left-1",
     name:"Spongebob",
     food: ["Krabby Patty", "Pizza"],
     species:"Sponge",
@@ -40,7 +40,7 @@ const fishCollection = [
     location:"Bikini Bottom"
   },
   {
-    image: "fish.jpg",
+    image: "https://s7d1.scene7.com/is/image/PETCO/1031740-left-1",
     name:"Sandy",
     food: ["Nuts", "Krabby Patty"],
     species:"Underwater Squirrel",

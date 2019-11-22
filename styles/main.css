@@ -1,11 +1,11 @@
 @import 'nav.css';
 
-img {
+.fish__image {
   max-width: 100%;
   border-radius: 10px;
 }
 
-.fishies {
+.fishList {
   display: flex;
   flex-wrap: wrap;
   width: 67%;
@@ -17,7 +17,7 @@ img {
   flex-wrap: wrap;
 }
 
-.fishies__card {
+.fish {
   flex-basis: 27%;
   border: 2px solid goldenrod;
   border-radius: 10px;
