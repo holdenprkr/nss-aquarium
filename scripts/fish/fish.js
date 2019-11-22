@@ -7,7 +7,7 @@ const FishComponent = (fish) => {
           <div>
               <img class="fish__image" src="${fish.image}" alt="">
           </div>
-          <div class="fish__name">${fish.name}</div>
+          <div class="fish__name"><strong><h3>${fish.name}</h3></strong></div>
           <button id="button--${fish.name}">Details</button>
 
           <dialog class="dialog--fish" id="details--${fish.name}">
