@@ -78,4 +78,4 @@ const initializeLocationsDetailButtonEvents = () => {
 
 }
 
-initializeLocationsDetailButtonEvents()
+export default initializeLocationsDetailButtonEvents

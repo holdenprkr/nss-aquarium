@@ -1,15 +1,22 @@
 @import 'nav.css';
 
-img {
+.fish__image {
   max-width: 100%;
   border-radius: 10px;
 }
 
-.fishies {
+.fishListArticle {
   display: flex;
   flex-wrap: wrap;
   width: 67%;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.fishList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: space-around;
 }
 
 .content {
@@ -17,7 +24,7 @@ img {
   flex-wrap: wrap;
 }
 
-.fishies__card {
+.fish {
   flex-basis: 27%;
   border: 2px solid goldenrod;
   border-radius: 10px;

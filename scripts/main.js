@@ -1,7 +1,11 @@
-import initializeDetailButtonEvents from './dialogs.js'
-import addMouseOverEventListeners from './highlight.js'
-import addMouseOverTipBorder from './tipBorder.js'
+import initializeDetailButtonEvents from './fish/dialogs.js'
+import addMouseOverEventListeners from './fish/highlight.js'
+import addMouseOverTipBorder from './tips/tipBorder.js'
+import FishListComponent from './fish/fishList.js'
+import TipListComponent from './tips/tipList.js'
 
-initializeDetailButtonEvents()
+FishListComponent()
+TipListComponent()
 addMouseOverEventListeners()
 addMouseOverTipBorder()
+initializeDetailButtonEvents()
