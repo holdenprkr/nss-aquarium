@@ -65,14 +65,6 @@ const initializeDetailButtonEvents = () => {
     }
   )
 
-  // document.querySelector("#button--randy").addEventListener(
-  //   "click",
-  //   theClickEvent => {
-  //     const theDialog = document.querySelector("#details--randy")
-  //     theDialog.showModal()
-  //   }
-  // )
-
 
 };
 

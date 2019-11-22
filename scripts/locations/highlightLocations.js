@@ -17,4 +17,4 @@ const addMouseOverEventLocation = () => {
   }
 }
 
-addMouseOverEventLocation()
+export default addMouseOverEventLocation
