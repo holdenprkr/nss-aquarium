@@ -1,49 +1,49 @@
 const locationCollection = [
   {
-    location: "Location",
-    country: "Country",
+    location: "Nova Scotia",
+    country: "Canada",
     long: "47, 47",
     num: "One"
   },
   {
-    location: "Location",
-    country: "Country",
+    location: "Malindi",
+    country: "Kenya",
     long: "47, 47",
     num: "Two"
   },
   {
-    location: "Location",
-    country: "Country",
+    location: "Key West, Florida",
+    country: "United States of America",
     long: "47, 47",
     num: "Three"
   },
   {
-    location: "Location",
-    country: "Country",
+    location: "Montauk, New York",
+    country: "United States of America",
     long: "47, 47",
     num: "Four"
   },
   {
-    location: "Location",
-    country: "Country",
+    location: "Bermuda",
+    country: "Bermuda",
     long: "47, 47",
     num: "Five"
   },
   {
-    location: "Location",
-    country: "Country",
+    location: "The Bahamas",
+    country: "The Bahamas",
     long: "47, 47",
     num: "Six"
   },
   {
-    location: "Location",
-    country: "Country",
+    location: "Cabo San Lucas",
+    country: "Mexico",
     long: "47, 47",
     num: "Seven"
   },
   {
-    location: "Location",
-    country: "Country",
+    location: "Ketchikan, Alaska",
+    country: "United States of America",
     long: "47, 47",
     num: "Eight"
   }
