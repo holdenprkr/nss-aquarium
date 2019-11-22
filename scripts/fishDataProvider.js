@@ -46,29 +46,9 @@ const fishCollection = [
     species:"Underwater Squirrel",
     length:"6in",
     location:"Bikini Bottom"
-  },
-  {
-    image: "fish.jpg",
-    name:"",
-    food:"",
-    species:"",
-    length:"",
-    location:""
-  },
-  {
-    image: "fish.jpg",
-    name:"",
-    food:"",
-    species:"",
-    length:"",
-    location:""
-  },
-  {
-    image: "fish.jpg",
-    name:"",
-    food:"",
-    species:"",
-    length:"",
-    location:""
   }
 ]
+
+export const useFish = () => {
+  return fishCollection
+}
