@@ -4,10 +4,10 @@ import addMouseOverTipBorder from './tipBorder.js'
 import { useFish } from './fishDataProvider.js'
 import FishListComponent from './fishList.js'
 
-// initializeDetailButtonEvents()
 FishListComponent()
 addMouseOverEventListeners()
 addMouseOverTipBorder()
+initializeDetailButtonEvents()
 
 const allOfTheFish = useFish()
 

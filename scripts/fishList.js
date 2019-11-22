@@ -11,7 +11,7 @@ import FishComponent from "./fish.js"
 const FishListComponent = () => {
 
   // Get a reference to the `<article class="content">` element
-  const contentElement = document.querySelector(".fishList")
+  const contentElement = document.querySelector(".fishListArticle")
   const fishes = useFish()
 
   let allFishHTML = ""

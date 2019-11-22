@@ -5,11 +5,18 @@
   border-radius: 10px;
 }
 
-.fishList {
+.fishListArticle {
   display: flex;
   flex-wrap: wrap;
   width: 67%;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.fishList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: space-around;
 }
 
 .content {

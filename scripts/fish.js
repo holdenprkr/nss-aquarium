@@ -14,7 +14,7 @@ const FishComponent = (fish) => {
               <div>Species: ${fish.species}</div>
               <div>Location: ${fish.location}</div>
               <div>Length: ${fish.size}</div>
-              <div>Food: ${fish.food.join(",")}</div>
+              <div>Food: ${fish.food.join(", ")}</div>
 
               <button class="button--close">Close Dialog</button>
           </dialog>
