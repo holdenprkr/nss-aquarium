@@ -12,70 +12,19 @@ const initializeLocationsDetailButtonEvents = () => {
     )
   }
 
-  document.querySelector("#button--locationOne").addEventListener(
-    "click",
-    clickEvent => {
-      const dialog = document.querySelector("#details--locationOne")
-      dialog.showModal()
-    }
-  )
+  const allLocationDetailButtons = document.querySelectorAll("button[id^='button--']")
 
-  document.querySelector("#button--locationTwo").addEventListener(
-    "click",
-    clickEvent => {
-      const dialog = document.querySelector("#details--locationTwo")
-      dialog.showModal()
-    }
-  )
-
-  document.querySelector("#button--locationThree").addEventListener(
-    "click",
-    clickEvent => {
-      const dialog = document.querySelector("#details--locationThree")
-      dialog.showModal()
-    }
-  )
-
-  document.querySelector("#button--locationFour").addEventListener(
-    "click",
-    clickEvent => {
-      const dialog = document.querySelector("#details--locationFour")
-      dialog.showModal()
-    }
-  )
-  
-  document.querySelector("#button--locationFive").addEventListener(
-    "click",
-    clickEvent => {
-      const dialog = document.querySelector("#details--locationFive")
-      dialog.showModal()
-    }
-  )
-
-  document.querySelector("#button--locationSix").addEventListener(
-    "click",
-    clickEvent => {
-      const dialog = document.querySelector("#details--locationSix")
-      dialog.showModal()
-    }
-  )
-
-  document.querySelector("#button--locationSeven").addEventListener(
-    "click",
-    clickEvent => {
-      const dialog = document.querySelector("#details--locationSeven")
-      dialog.showModal()
-    }
-  )
-
-  document.querySelector("#button--locationEight").addEventListener(
-    "click",
-    clickEvent => {
-      const dialog = document.querySelector("#details--locationEight")
-      dialog.showModal()
-    }
-  )
-
+  // Add an event listener to each one
+  for (const button of allLocationDetailButtons) {
+      button.addEventListener(
+          "click",
+          theEvent => {
+              const dialogSiblingSelector = `#${theEvent.target.id}+dialog`
+              const theDialog = document.querySelector(dialogSiblingSelector)
+              theDialog.showModal()
+          }
+      )
+  }
 }
 
 export default initializeLocationsDetailButtonEvents

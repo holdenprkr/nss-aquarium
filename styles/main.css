@@ -47,7 +47,7 @@ body {
 .locations {
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   justify-content: space-around;
 }
@@ -82,16 +82,6 @@ h1 {
   font-size: 1.6em;
 }
 
-@media (max-width:950px) {
-  .fishies {
-    flex-basis: 100%;
-  }
-
-  aside {
-    flex-basis: 100%;
-  }
-}
-
 .highlightFish {
   background-color: darkgoldenrod;
   color: lightgoldenrodyellow;
@@ -108,4 +98,45 @@ h1 {
 
 .tip {
   padding: 0px 6px;
+}
+
+@media (max-width:950px) {
+  .fishListArticle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  aside {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width:650px) {
+  .fish {
+    flex-basis: 40%
+  }
+}
+
+@media (max-width:420px) {
+  .fish {
+    flex-basis: 80%
+  }
+}
+
+@media (max-width:900px) {
+  .locations {
+    width: 90%
+  }
+  .location {
+    flex-basis: 75%
+  }
+}
+
+@media (max-width:500px) {
+  .locations {
+    width: 100%
+  }
+  .location {
+    flex-basis: 90%
+  }
 }

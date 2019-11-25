@@ -2,9 +2,7 @@ const LocationComponent = (location) => {
   return `
   <section class="location">
   <h3>${location.location}</h3>
-  <div>
     <button id="button--location${location.num}">Details</button>
-  </div>
 
   <dialog class="dialog--fish" id="details--location${location.num}">
     <div>Country: ${location.country}</div>
