@@ -9,17 +9,15 @@ const LocationListComponent = () => {
   const contentElement = document.querySelector(".locationsArticle")
   const locations = useLocations()
 
-  let allLocationsHTML = ""
-
-  for (const location of locations) {
-    const locationHTML = LocationComponent(location)
-    allLocationsHTML += locationHTML
-  }
-
   // Add to the existing HTML in the content element
   contentElement.innerHTML += `
       <section class="locations">
-          ${allLocationsHTML}
+          ${
+            locations.map(
+              (location) => {
+              return LocationComponent(location)
+            }).join("")
+          }
       </section>
   `
 }
