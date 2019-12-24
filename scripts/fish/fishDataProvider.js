@@ -12,7 +12,7 @@ const fishCollection = [
     name:"Jawsie",
     food: ["Seals", "Flakes"],
     species:"Shark",
-    length:"25ft",
+    length:"25in",
     location:"Florida, USA"
   },
   {
@@ -46,9 +46,47 @@ const fishCollection = [
     species:"Underwater Squirrel",
     length:"6in",
     location:"Bikini Bottom"
+  },
+  {
+    image: "https://s7d1.scene7.com/is/image/PETCO/1031740-left-1",
+    name:"Patrick",
+    food: ["Krabby Patty", "Pizza"],
+    species:"Sponge",
+    length:"4in",
+    location:"Bikini Bottom"
+  },
+  {
+    image: "https://s7d1.scene7.com/is/image/PETCO/1031740-left-1",
+    name:"Salty",
+    food: ["Nuts", "Krabby Patty"],
+    species:"Underwater Squirrel",
+    length:"8in",
+    location:"Bikini Bottom"
   }
 ]
 
-export const useFish = () => {
-  return fishCollection
+let holyFish = []
+let soldiers = []
+let regularFish = []
+
+for (const fish of fishCollection) {
+  if (fish.length.split("in")[0] % 3 === 0) {
+      holyFish.push(fish)
+  } else if (fish.length.split("in")[0] % 5 === 0) {
+      soldiers.push(fish)
+  } else {
+      regularFish.push(fish)
+  }
+}
+
+export const mostHolyFish = () => {
+  return holyFish.slice()
+}
+
+export const soldierFish = () => {
+  return soldiers.slice()
+}
+
+export const nonHolyFish = () => {
+  return regularFish.slice()
 }

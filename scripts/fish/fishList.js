@@ -4,22 +4,36 @@
  */
 
 // Import `useFish` from the data provider module
-import { useFish } from "./fishDataProvider.js"
+import { mostHolyFish, soldierFish, nonHolyFish } from "./fishDataProvider.js"
 import FishComponent from "./fish.js"
-
 
 const FishListComponent = () => {
 
   // Get a reference to the `<article class="content">` element
   const contentElement = document.querySelector(".fishListArticle")
-  const fishes = useFish()
+
+  const mostHoly = mostHolyFish()
+  const soldier = soldierFish()
+  const nonHoly = nonHolyFish()
 
 
   // Add to the existing HTML in the content element
   contentElement.innerHTML += `
       <section class="fishList">
           ${
-            fishes.map(
+            mostHoly.map(
+              (fish) => {
+              return FishComponent(fish)
+            }).join("")
+          }
+          ${
+            soldier.map(
+              (fish) => {
+              return FishComponent(fish)
+            }).join("")
+          }
+          ${
+            nonHoly.map(
               (fish) => {
               return FishComponent(fish)
             }).join("")
